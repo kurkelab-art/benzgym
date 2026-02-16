@@ -152,11 +152,13 @@ footer p {
 
 }
 
-@media (max-width: 600px) {
-    .photo {
-        max-width: 100%;
-        height: auto;
-        display: block;
+@media screen and (max-width: 600px) {
+    .photo img {
+        margin-left: 0 !important;
+        width: 100% !important;   
+        max-width: 100% !important; 
+        height: auto !important;  
+        display: block;   
     }
 }
 
