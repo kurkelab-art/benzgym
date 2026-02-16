@@ -162,3 +162,24 @@ footer p {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .photo img {
+        margin-left: 0 !important;
+        width: 100% !important;   
+        max-width: 100% !important; 
+        height: auto !important;  
+        display: block;   
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .photo img {
+        margin-left: 0 !important;
+        width: 100% !important;   
+        max-width: 100% !important; 
+        height: auto !important;  
+        display: block;   
+    }
+}
+
+
