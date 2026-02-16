@@ -149,4 +149,13 @@ footer p {
 
 .content strong {
   font-size: 20px;
+
+}
+
+@media (max-width: 600px) {
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
 }
